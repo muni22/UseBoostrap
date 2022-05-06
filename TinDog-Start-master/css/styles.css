@@ -1,0 +1,134 @@
+/* Usefull */
+*{
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+p, em{
+    font-family: 'Montserrat', sans-serif;
+}
+.center{
+    text-align: center !important;
+}
+.big-heading{
+    font-size: 2.8rem;
+    line-height: 1.6;
+}
+.container{
+    padding: 8% 5%;
+}
+.white-section{
+    background-color: white;
+    color: #333;
+}
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+/* Navbar */
+.title-navbar{
+    position: fixed;
+    background-color: #ff4c68; 
+    z-index: 2; 
+    opacity: 0.8;
+}
+.nav-item{
+    padding: 0 10px;
+}
+.nav-item a:hover{
+    opacity: 0.8;
+}
+/* Title */
+#title{
+    padding-top: 40px;
+    height: 620px;
+}
+.title-item{
+    margin-right: 60px;
+}
+.title-img{
+    width: 300px;
+    transform: rotate(25deg);
+}
+/* Featrure */
+#features{
+    position: relative;
+    z-index: 1;
+}
+.my-features i{
+    font-size: 45px;
+    color: #ef8172;
+    margin-bottom: 8px;
+}
+.my-features i:hover{
+    color: #ff4c68;
+    cursor: pointer;
+}
+.my-features p{
+    color: #8f8f8f;
+}
+/* Testimonials */
+.testimonials-img{
+    border-radius: 100%;
+    width: 100px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.carousel-inner{
+    padding: 0 10%;
+}
+/* Press */
+#press{
+    padding-top: 7%;
+}
+.press-logo{
+    width: 250px;
+    padding: 20px;
+}
+/* Pricing */
+
+/* Cards */
+.card-header{
+    padding: 20px 0;
+}
+.card-body{
+    padding: 20px;
+}
+.card-item{
+    margin: 40px 0;
+}
+.card-text {
+    padding-top: 20px;
+}
+.card-text p{
+    margin: 10px;
+}
+.card-text button{
+    margin-top: 50px;
+}
+/* Cta */
+.cta-heading{
+    margin-bottom: 50px;
+}
+/* Footer */
+#footer{
+    color: #8f8f8f;
+}
+.footer-icon a{
+    padding: 8px;
+    color: rgb(85, 78, 78);
+}
+.footer-icon a:hover{
+    opacity: 0.8;
+}
+.footer-text{
+    margin-top: 14px;
+}
+@media (max-width: 992px) {
+    .title-img{
+        display: none;
+    }
+}
